@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sarath Kumar T C — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sticky header/navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo">Sarath Kumar</a>
+        <span class="tagline">MERN stack Developer</span>
+      </div>
+
+      <!-- mobile nav toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">☰</label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="http://127.0.0.1:3000/Contact.html?serverWindowId=1279cf46-4a5b-4994-b31c-605bb3ac586b">Contact</a></li>
+          <li><a href="https://github.com/SARATHKUMAR42" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/sarath-kumar-t-c-57aa8a266" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Hi, I'm <span class="accent">Sarath Kumar</span></h1>
+        <p class="lead">B.Tech in Computer Science — front-end developer building responsive websites.</p>
+        <p>
+          <a href="projects.html" class="btn">View Projects</a>
+          <a href="contact.html" class="btn btn-outline">Contact Me</a>
+        </p>
+      </div>
+      <div class="hero-right">
+        <!-- placeholder image; replace with your headshot -->
+        <div class="avatar" aria-hidden="true">
+          <img src="113121UG09042.jpg" alt="Sarath Kumar photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about container" id="about">
+      <h2>About Me</h2>
+      <p>
+         A recently graduated B.Tech student in Computer Science and Business Systems with strong technical skills, problem
+solving abilities, and proven teamwork experience. Eager to contribute to impactful projects, leverage my academic and 
+project-based knowledge, and add value to an innovative organization while continuing to grow in a dynamic, technology
+driven environment.
+      </p>
+    </section>
+
+    <!-- Skills (Flexbox) -->
+    <section class="skills container">
+      <h2>Skills</h2>
+      <div class="skills-row">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">MERN</div>
+        <div class="skill-card">Responsive Design</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">Git / GitHub</div>
+      </div>
+    </section>
+
+    <!-- Education / Experience (table-like structured layout) -->
+    <section class="education container">
+      <h2>Education</h2>
+      <table class="edu-table">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech — Computer Science & Business Systems</td>
+            <td>Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College</td>
+            <td>2025</td>
+            <td>8.52 CGPA</td>
+          </tr>
+          <tr>
+            <td>12th (HSC)</td>
+            <td>Sri Divya Chaitanya Matric Higher Secondary School , Sholinghur.</td>
+            <td>2021</td>
+            <td>87 Percentage</td>
+          </tr>
+          <tr>
+            <td>10+th (HSC)</td>
+            <td> ST MARYS Matriculation High School, Pallipet.</td>
+            <td>2019</td>
+            <td>86 Percentage</td>
+          </tr>
+        </tbody>
+      </table> <br>
+      <h2>Experience
+      </h2>
+      <table class="edu-table">
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Company</th>
+            <th>Year</th>
+            <th>SKills Gained</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Java Intern</td>
+            <td>Eagle Tech IT Solutions</td>
+            <td>2022</td>
+            <td> coding, debugging, and eveloping basic Java applications</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>ZRAE Global</td>
+            <td>2023</td>
+            <td> HTML, CSS, and JavaScript.</td>
+          </tr>
+          <tr>
+            <td>MERN</td>
+            <td>Vetri Nichayam</td>
+            <td>2025</td>
+            <td>React,Express,Node.js,MongoDB</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Footer (Flexbox) -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Sarath Kumar</strong>
+        <p>Email: <a href="mailto:sarathkumartc2003@gmail.com">sarathkumartc2003@gmail.com</a></p>
+        <p>Phone: <a href="tel:6369889108">6369889108</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/SARATHKUMAR42" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/sarath-kumar-t-c-57aa8a266" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      &copy; <span id="year"></span>2025 Sarath Kumar — All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // small script to set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

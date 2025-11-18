@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact — Sarath Kumar</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="index.html" class="logo">Sarath Kumar</a></div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">☰</label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="http://127.0.0.1:3000/Contact.html?serverWindowId=1279cf46-4a5b-4994-b31c-605bb3ac586b" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-hero">
+      <h1>Contact Me</h1>
+      <p>Have a project or opportunity? Send a message — I'll get back to you.</p>
+    </section>
+
+    <section class="contact-grid">
+      <!-- Contact form -->
+      <form class="contact-form" action="#" method="post" novalidate>
+        <label for="fullname">Full Name *</label>
+        <input id="fullname" name="fullname" type="text" placeholder="Your full name" required>
+
+        <label for="email">Email Address *</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel" placeholder="6369889108">
+
+        <label for="subject">Subject *</label>
+        <input id="subject" name="subject" type="text" placeholder="Brief subject" required>
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- Contact information -->
+      <aside class="contact-info">
+        <h3>Get in touch</h3>
+        <p><strong>Email:</strong> <a href="mailto:sarathkumartc2003@gmail.com">sarathkumartc2003@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:6369889108">6369889108</a></p>
+        <p><strong>Location:</strong> Chennai, India</p>
+
+        <h4>Social</h4>
+        <p>
+          <a href="https://github.com/SARATHKUMAR42" target="_blank" rel="noopener">GitHub</a><br>
+          <a href="https://linkedin.com/in/sarath-kumar-t-c-57aa8a266" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Sarath Kumar</strong>
+        <p>Email: <a href="mailto:sarathkumartc2003@gmail.com">sarathkumartc2003@gmail.com</a></p>
+        <p>Phone: <a href="tel:6369889108">6369889108</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/SARATHKUMAR42" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/sarath-kumar-t-c-57aa8a266" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      &copy; <span id="year"></span>2025 Sarath Kumar — All rights reserved.
+    </div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>

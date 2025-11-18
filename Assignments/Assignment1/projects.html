@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Projects — Sarath Kumar</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo">Sarath Kumar</a>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">☰</label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="http://127.0.0.1:3000/Contact.html?serverWindowId=1279cf46-4a5b-4994-b31c-605bb3ac586b">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects-hero container">
+      <h1>Projects</h1>
+      <p>Here are some projects I built — descriptions, tech used, and links to repositories.</p>
+    </section>
+
+    <!-- Projects Grid (CSS Grid) -->
+    <section class="projects-grid container">
+      <!-- 6 project cards minimum -->
+      <article class="project-card">
+        
+        <h3>Banking Application</h3>
+        <p>A secure banking app with authentication and transaction features.</p>
+        <ul class="tags">
+          <li>Java</li><li>MySQL</li><li>Tomcat</li>
+        </ul>
+        <p><a href="https://github.com/SARATHKUMAR42/Banking_Project" target="_blank" rel="noopener">View Repo</a></p>
+      </article>
+
+      <article class="project-card">
+        
+        <h3>Employee Time Tracker</h3>
+        <p>Tracks employee tasks and working hours; includes role-based access and charts.</p>
+        <ul class="tags"><li>Java</li><li>MySQL</li><li>Charts</li></ul>
+        <p><a href="https://github.com/SARATHKUMAR42/EmployeeTimeTracker" target="_blank" rel="noopener">View Repo</a></p>
+      </article>
+
+      <!-- placeholder projects -->
+      <article class="project-card">
+        
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio with responsive layout and contact form.</p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>Responsive</li></ul>
+        <p><a href="index.html">Live Demo</a></p>
+      </article>
+
+      <article class="project-card">
+        
+        <h3>Disease prediction</h3>
+        <p>Predicts the Disease based on symptoms</p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>Matplotlib</li></ul>
+        <p><a href="https://github.com/SARATHKUMAR42/Disease-prediction-based-on-symptoms">View Details</a></p>
+      </article>
+
+      <article class="project-card">
+        
+    
+        
+        <h3>YouTube Summarizer</h3>
+        <p>Summarize the video and generates the text.</p>
+        <ul class="tags"><li>Python</li><li>Pandas</li><li>Matplotlib</li></ul>
+        <p><a href="https://github.com/SARATHKUMAR42/You-Tube-summarizer">Repo</a></p>
+      </article>
+
+      <article class="project-card">
+        
+        <h3>Medical ChatBot</h3>
+        <p>UI prototype for an e-commerce listing and checkout flow.</p>
+        <ul class="tags"><li>AI</li><li>LLMs</li><li>RAG</li></ul>
+        <p><a href="https://github.com/SARATHKUMAR42/Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS-">Prototype</a></p>
+      </article>
+    </section>
+
+    <!-- Table of projects (HTML table requirement) -->
+    <section class="projects-table container">
+      <h2>All Projects (Summary)</h2>
+      <table class="project-list">
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Category</th>
+            <th>Technologies</th>
+            <th>Completion year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Banking Application</td>
+            <td>Web App</td>
+            <td>Java, MySQL, Tomcat</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Employee Time Tracker</td>
+            <td>Web App</td>
+            <td>Java, Charts, MySQL</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Disease prediction</td>
+            <td>Web App</td>
+            <td>HTML, CSS</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>YouTube Summarizer</td>
+            <td>Web App</td>
+            <td>Pandas,Matplotlib,Python</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Medical ChatBot</td>
+            <td>Web App</td>
+            <td>AI,LLMs,RAG</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>Portfolio Website</td>
+            <td>Frontend</td>
+            <td>HTML, CSS</td>
+            <td>2025</td>
+          </tr>
+          <!-- add more rows as needed -->
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Sarath Kumar</strong>
+        <p>Email: <a href="mailto:sarathkumartc2003@gmail.com">sarathkumartc2003@gmail.com</a></p>
+        <p>Phone: <a href="tel:6369889108">6369889108</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/SARATHKUMAR42" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/sarath-kumar-t-c-57aa8a266" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      &copy; <span id="year"></span> 2025 Sarath Kumar — All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
