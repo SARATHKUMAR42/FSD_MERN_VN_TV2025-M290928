@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "Software, algorithms, AI and systems.",
+    "fullDescription": "CSE focuses on programming, algorithms, AI, systems and full-stack development.",
+    "courses": ["DSA", "OS", "DBMS", "AI"],
+    "faculty": ["Dr. Kumar", "Dr. Meena"],
+    "labs": ["Programming Lab", "AI Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "Application development & enterprise systems.",
+    "fullDescription": "IT covers software tools, networks, cloud and enterprise systems.",
+    "courses": ["Web Development", "Cloud", "Networking"],
+    "faculty": ["Dr. Anita"],
+    "labs": ["Systems Lab", "DB Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "description": "Embedded systems and communications.",
+    "fullDescription": "ECE covers circuits, signals, microcontrollers and communication engineering.",
+    "courses": ["DSP", "Analog Electronics"],
+    "faculty": ["Dr. Sharma"],
+    "labs": ["VLSI Lab", "Electronics Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "description": "Mechanics and manufacturing.",
+    "fullDescription": "Mechanical engineering deals with thermodynamics and machine design.",
+    "courses": ["Thermodynamics", "Machine Design"],
+    "faculty": ["Dr. Balaji"],
+    "labs": ["CAD Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "Structures and environmental engineering.",
+    "fullDescription": "Civil Engineering includes construction, structures and water resources.",
+    "courses": ["Structural Analysis"],
+    "faculty": ["Dr. Rohit"],
+    "labs": ["Concrete Lab"]
+  }
+]
